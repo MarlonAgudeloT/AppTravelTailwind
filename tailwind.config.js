@@ -5,7 +5,7 @@ module.exports = {
    "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      backgrondImage:{
+      backgroundImage:{
         'sanFrancisco':"url('../img/sanFrancisco.jpg')",
         'sanFranciscoDesktop': "url('../img/sanFranciscoDesktop.jpg')",
         'yosemite': "url('../img/yosemite.jpg')",
@@ -42,5 +42,8 @@ module.exports = {
     width: ["responsive", "hover", "focus"],
     extend:{}
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+    // ...
+  ],
 }
