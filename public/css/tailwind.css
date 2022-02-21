@@ -468,25 +468,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.h-64 {
-  height: 16rem;
+.h-screen {
+  height: 100vh;
 }
 
-.w-64 {
-  width: 16rem;
+.h-3\/4 {
+  height: 75%;
 }
 
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(143 162 6 / var(--tw-bg-opacity));
+.h-full {
+  height: 100%;
 }
 
-.font-Montserrat {
-  font-family: Montserrat, sans-serif;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.w-full {
+  width: 100%;
 }
 
