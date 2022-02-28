@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .Card{
-    @apply w-48 h-64 shadow-md rounded-lg snap-center shrink-0 flex-none;
+    @apply w-48 h-64 shadow-md rounded-lg snap-center shrink-0 flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
 }
 
 .Card_cover{
@@ -29,4 +29,6 @@
   .Card:nth-child(even) .Card_sub {
     @apply text-tertiary;
   }
-
+.CardTitle{
+    @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
+}
