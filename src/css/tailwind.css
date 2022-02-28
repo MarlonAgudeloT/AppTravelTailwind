@@ -11,7 +11,7 @@
 }
 
 .Card_info{
-    @apply w-full h-2/5 bg-secondary rounded-b-lg;
+    @apply h-2/5 bg-secondary rounded-b-lg;
 }
 
 .Card_title{

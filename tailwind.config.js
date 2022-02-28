@@ -24,14 +24,14 @@ module.exports = {
       },
       backgroundColor:theme =>({
         ...theme('colors'),
-        'primary':'#CC2D4A',
-        'secondary':'#8FA206',
-        'tertiary':'#61AEC9',
+        'primary':'#434093',
+        'secondary':'#514cb6',
+        'tertiary':'#605ccf',
       }),
       textColor:{
-				'primary': '#CC2D4A',
-				'secondary': '#8FA206',
-				'tertiary': '#61AEC9',
+				'primary': '#434093',
+				'secondary': '#514cb6',
+				'tertiary': '#605ccf',
     },
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
