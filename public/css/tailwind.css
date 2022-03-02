@@ -1300,6 +1300,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:pb-56 {
     padding-bottom: 14rem;
   }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 1280px) {
