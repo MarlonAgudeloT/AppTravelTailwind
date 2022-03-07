@@ -1,4 +1,5 @@
-const htmlElement = document.querySelector("html")
+
+        const htmlElement = document.querySelector("html")
 		const toggleButton = document.querySelector("#toggle")
 		const toggleButtonSm = document.querySelector("#toggle-sm")
 

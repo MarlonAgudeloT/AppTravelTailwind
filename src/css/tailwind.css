@@ -11,24 +11,29 @@
 }
 
 .Card_info{
-    @apply h-2/5 bg-secondary rounded-b-lg;
+    @apply h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700;
 }
 
 .Card_title{
-    @apply text-white font-bold text-xl px-4 py-2;
+    @apply text-white font-bold text-xl px-4 py-2 dark:bg-gray-700;
 }
 
 .Card_sub{
-    @apply text-white text-base px-4;
+    @apply text-white text-base px-4 dark:bg-gray-700;
 }
 
 .Card:nth-child(even) .Card_info {
-    @apply bg-white;
+    @apply bg-white dark:bg-gray-800 ;
   }
+
   .Card:nth-child(even) .Card_title,
-  .Card:nth-child(even) .Card_sub {
-    @apply text-tertiary;
+  .Card:nth-child(even) .Card_sub,
+  .Card:nth-child(even).Card_info{
+    @apply text-tertiary dark:text-gray-300 dark:bg-gray-800;
   }
+
 .CardTitle{
-    @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
+    @apply text-3xl px-8 pt-8 pb-1 font-semibold dark:text-white;
 }
+
+
